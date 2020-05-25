@@ -40,7 +40,7 @@ app.get('', (req, res) => {
     })
 })
 
-app.get('/', (req, res) => {
+app.get('/myrecipes', (req, res) => {
     res.render('myrecipes', {
         title: 'Weather',
         name: 'Ezgi Göktaş'
