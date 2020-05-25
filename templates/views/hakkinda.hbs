@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>ezgiinthekitchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="icon" href="/img/64.png">
+</head>
+<body>
+ {{>header2}}
+
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Mutfağıma Hoş Geldin!</h3><br>
+    <img src="/img/about_me.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32 about-explain">
+      <h4><b>Yemek yapmayı seviyorum!</b></h4>
+      <h6><i>Lezzetli ve Besleyici Gıda Tutkusuyla</i></h6>
+      <p>Merhaba! Ben uzun zamandır yemek yapmayı seven Ezgi. Yeni tarifler keşfetmekten, kalbimden bir şeyler eklemekten ve servis etmekten zevk alıyorum.</p>
+      <p>Ben bir mimarım ve bu web sitesinde bulabileceğiniz tüm kreasyonlar benim zevkim, araştırmam ve yaratıcılığımdan geliyor.</p>
+      <p>Ayrıca bir süredir kod yazarak web geliştirme üzerine de çalışıyorum. Bu web sitesi sıfırdan sonuna kadar benim tarafımdan yazıldı.</p>
+      <hr>
+      <p>Mutfak hayatımı sizlerle paylaşmak istiyorum. Belki daha fazlasını... Umarım tariflerimi beğenirsiniz ve denersiniz.</p>
+      <p>Temasta kalalım. <span style='font-size:60px;'>&#127758;</span></p>
+      <button class="contact"><a href="/iletisim">İletişim</a></button>
+    </div>
+  </div>
+  
+  
+{{>footer}}
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
