@@ -4,12 +4,8 @@ const hbs = require('hbs')
 const express = require('express')
 
 
-
-
-
 const app = express()
 const port = process.env.PORT || 3000
-
 
 
 app.use(express.json())
@@ -20,7 +16,6 @@ module.exports = app
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
-
 
 
 // Setup handlebars engine and views location
@@ -34,52 +29,35 @@ app.use(express.static(publicDirectoryPath))
 // English
 
 app.get('', (req, res) => {
-    res.render('myrecipes', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('myrecipes')
 })
 
 app.get('/myrecipes', (req, res) => {
-    res.render('myrecipes', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('myrecipes')
 })
 
 app.get('/myrecipes-page2', (req, res) => {
-    res.render('myrecipes-page2', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('myrecipes-page2')
 })
 
 app.get('/about', (req, res) => {
-    res.render('about', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('about')
 })
 
 app.get('/blog', (req, res) => {
-    res.render('blog', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('blog')
 })
 
 app.get('/postsfromyou', (req, res) => {
-    res.render('postsfromyou', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('postsfromyou')
 })
 
 app.get('/contact', (req, res) => {
-    res.render('contact', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('contact')
+})
+
+app.get('/privacy-policy', (req, res) => {
+    res.render('privacy-policy')
 })
 
 // My Recipes 
@@ -153,67 +131,44 @@ app.get('/16-zucchini-patty', (req, res) => {
 // Turkish
 
 app.get('/tariflerim', (req, res) => {
-    res.render('tariflerim', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('tariflerim')
 })
 
 app.get('/tariflerim-sayfa2', (req, res) => {
-    res.render('tariflerim-sayfa2', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('tariflerim-sayfa2')
 })
 
 
 app.get('/hakkinda', (req, res) => {
-    res.render('hakkinda', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('hakkinda')
 })
 
 app.get('/hakkinda', (req, res) => {
-    res.render('hakkinda', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('hakkinda')
 })
 
 app.get('/trblog', (req, res) => {
-    res.render('trblog', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('trblog')
 })
 
 app.get('/sizdengelenler', (req, res) => {
-    res.render('sizdengelenler', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('sizdengelenler')
 })
 
 app.get('/iletisim', (req, res) => {
-    res.render('iletisim', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('iletisim')
 })
 
 app.get('/sizdengelenler', (req, res) => {
-    res.render('sizdengelenler', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('sizdengelenler')
 })
 
 app.get('/iletisim', (req, res) => {
-    res.render('iletisim', {
-        title: 'Weather',
-        name: 'Ezgi Göktaş'
-    })
+    res.render('iletisim')
+})
+
+app.get('/gizlilik-politikasi', (req, res) => {
+    res.render('gizlilik-politikasi')
 })
 
 

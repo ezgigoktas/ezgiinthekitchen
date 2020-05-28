@@ -1,6 +1,13 @@
 body,h1,h2,h3,h4,h5,h6 {
     font-family: "Karma", sans-serif}
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
 .name {
     text-decoration: none;
     color: black;
@@ -89,6 +96,11 @@ button {
     font-size: 18px;
     text-decoration: underline;
 }
+/*Crousel*/
+
+.carousel-indicators {
+    z-index: -1
+}
 
 /* Footer*/
 
@@ -119,9 +131,4 @@ footer.w3-row-padding {
 
 .footer {
     background-color:rgb(242, 242, 242);
-   
-}
-
-div.footer-bottom {
-    height: 1200px;
 }
