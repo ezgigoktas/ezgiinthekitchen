@@ -40,6 +40,10 @@ app.get('/myrecipes-page2', (req, res) => {
     res.render('myrecipes-page2')
 })
 
+app.get('/myrecipes-page3', (req, res) => {
+    res.render('myrecipes-page3')
+})
+
 app.get('/about', (req, res) => {
     res.render('about')
 })
@@ -126,6 +130,10 @@ app.get('/16-zucchini-patty', (req, res) => {
     res.render('16-zucchini-patty')
 })
 
+app.get('/17-stuffed-peppers', (req, res) => {
+    res.render('17-stuffed-peppers')
+})
+
 
 
 // Turkish
@@ -136,6 +144,10 @@ app.get('/tariflerim', (req, res) => {
 
 app.get('/tariflerim-sayfa2', (req, res) => {
     res.render('tariflerim-sayfa2')
+})
+
+app.get('/tariflerim-sayfa3', (req, res) => {
+    res.render('tariflerim-sayfa3')
 })
 
 
@@ -238,6 +250,9 @@ app.get('/16-kabak-mucver', (req, res) => {
     res.render('16-kabak-mucver')
 })
 
+app.get('/17-biber-dolmasi', (req, res) => {
+    res.render('17-biber-dolmasi')
+})
 
 
 app.get('*', (req, res) => {
