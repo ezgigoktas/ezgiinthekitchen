@@ -6,33 +6,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/img/64.png">
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
  {{>header}}
 
-
-  <!-- Posts From You -->
-  <div class="w3-container w3-padding-32 w3-center footer-bottom" style="flex: 1; margin-top: 40px">  
-    
-    
-    <div class="w3-padding-64 about-explain">
-      
-     <h3>Posts From You!</h3><br>
-      <p>Hi! If you try my recipes then tag me on Instagram and Facebook. I will share your posts on this page with your name.</p>
-      <p>Look forward to hear from you!</p>
-      
-      <p>Keep in touch. <span style='font-size:60px;'>&#127758;</span></p>
-      <button class="contact"><a href="/contact">Contact</a></button>
-    </div>
-  </div>
- 
   
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding-32" style="max-width:1200px;margin-top:100px;display:inline-block; text-align: center;flex: 1">
+<li>Try my recipes then tag me on Instagram.</li>
+<li>I will share your posts on this page!</li>
+</div>
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;flex: 1">
+
+ <div class="w3-quarter">
+<blockquote class="instagram-media" data-instgrm-version="2" style=" background:#000000; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"><div style=" background:#000000; line-height:0; margin-top:40px; padding-bottom:55%; padding-top:45%; text-align:center; width:100%;"><div style="position:relative;"><div style=" -webkit-animation:dkaXkpbBxI 1s ease-out infinite; animation:dkaXkpbBxI 1s ease-out infinite; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-44px; width:44px;"></div><span style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:12px; font-style:normal; font-weight:bold; position:relative; top:15px;">Loading</span></div></div><p style=" line-height:32px; margin-bottom:0; margin-top:8px; padding:0; text-align:center;"> <a href="https://www.instagram.com/p/CBFYu_5BTNp/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; text-decoration:none;" target="_top"> View on Instagram</a></p></div><style>@-webkit-keyframes"dkaXkpbBxI"{ 0%{opacity:0.5;} 50%{opacity:1;} 100%{opacity:0.5;} } @keyframes"dkaXkpbBxI"{ 0%{opacity:0.5;} 50%{opacity:1;} 100%{opacity:0.5;} }</style></blockquote><script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+</div>
+
+<h4 style="margin-top: 550px; text-align:center"><a href="/17-stuffed-peppers">Recipe <i class='fas fa-caret-right'></i> Stuffed Peppers</a></h4>
+
+</div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      {{!-- <a href="/myrecipes" class="w3-bar-item w3-button w3-hover-black">1</a> --}}
+      </div>
+    </div>
+ 
+
 {{>footer}}
+  
 
 <!-- End page content -->
-</div>
+
 
 <script>
 // Script to open and close sidebar
