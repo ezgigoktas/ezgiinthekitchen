@@ -134,6 +134,10 @@ app.get('/17-stuffed-peppers', (req, res) => {
     res.render('17-stuffed-peppers')
 })
 
+app.get('/18-chicken-broth-soup', (req, res) => {
+    res.render('18-chicken-broth-soup')
+})
+
 
 
 // Turkish
@@ -252,6 +256,10 @@ app.get('/16-kabak-mucver', (req, res) => {
 
 app.get('/17-biber-dolmasi', (req, res) => {
     res.render('17-biber-dolmasi')
+})
+
+app.get('/18-tavuk-suyu-corbasi', (req, res) => {
+    res.render('18-tavuk-suyu-corbasi')
 })
 
 
