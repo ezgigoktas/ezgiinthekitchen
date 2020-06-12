@@ -142,6 +142,9 @@ app.get('/19-spinach-oatmeal', (req, res) => {
     res.render('19-spinach-oatmeal')
 })
 
+app.get('/20-cherry-tomato-egg', (req, res) => {
+    res.render('20-cherry-tomato-egg')
+})
 // Addsense 
 
 app.get('/ads', (req, res) => {
@@ -274,6 +277,9 @@ app.get('/19-ispanakli-yulaf-ezmesi', (req, res) => {
     res.render('19-ispanakli-yulaf-ezmesi')
 })
 
+app.get('/20-kiraz-domates-yumurtasi', (req, res) => {
+    res.render('20-kiraz-domates-yumurtasi')
+})
 
 app.get('*', (req, res) => {
     res.send('Page Not Found')
