@@ -142,6 +142,12 @@ app.get('/19-spinach-oatmeal', (req, res) => {
     res.render('19-spinach-oatmeal')
 })
 
+// Addsense 
+
+app.get('/ads', (req, res) => {
+    res.render('ads')
+})
+
 // Turkish
 
 app.get('/tariflerim', (req, res) => {
