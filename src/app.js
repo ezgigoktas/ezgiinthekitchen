@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const express = require('express')
 
 
+
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -147,8 +148,8 @@ app.get('/20-cherry-tomato-egg', (req, res) => {
 })
 // Addsense 
 
-app.get('/ads', (req, res) => {
-    res.render('ads')
+app.get('/ads.txt', (req, res) => {
+    res.render('ads.txt.hbs')
 })
 
 // Turkish
