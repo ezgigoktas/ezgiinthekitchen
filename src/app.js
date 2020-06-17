@@ -151,6 +151,10 @@ app.get('/21-spinach-penne', (req, res) => {
     res.render('21-spinach-penne')
 })
 
+app.get('/22-summer-time-oatmeal', (req, res) => {
+    res.render('22-summer-time-oatmeal')
+})
+
 // Addsense 
 
 app.get('/ads.txt', (req, res) => {
@@ -291,6 +295,9 @@ app.get('/21-ispanakli-kalem-makarna', (req, res) => {
     res.render('21-ispanakli-kalem-makarna')
 })
 
+app.get('/22-yaz-zamani-yulaf-ezmesi', (req, res) => {
+    res.render('22-yaz-zamani-yulaf-ezmesi')
+})
 
 // Page not found
 
