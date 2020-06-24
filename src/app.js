@@ -155,6 +155,9 @@ app.get('/22-summer-time-oatmeal', (req, res) => {
     res.render('22-summer-time-oatmeal')
 })
 
+app.get('/23-colorful-eggplant', (req, res) => {
+    res.render('23-colorful-eggplant')
+})
 // Addsense 
 
 app.get('/ads.txt', (req, res) => {
@@ -297,6 +300,10 @@ app.get('/21-ispanakli-kalem-makarna', (req, res) => {
 
 app.get('/22-yaz-zamani-yulaf-ezmesi', (req, res) => {
     res.render('22-yaz-zamani-yulaf-ezmesi')
+})
+
+app.get('/23-renkli-patlican', (req, res) => {
+    res.render('23-renkli-patlican')
 })
 
 // Page not found
