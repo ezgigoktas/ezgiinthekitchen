@@ -158,6 +158,13 @@ app.get('/22-summer-time-oatmeal', (req, res) => {
 app.get('/23-colorful-eggplant', (req, res) => {
     res.render('23-colorful-eggplant')
 })
+
+app.get('/24-strawberry-ice-cream', (req, res) => {
+    res.render('24-strawberry-ice-cream')
+})
+
+
+
 // Addsense 
 
 app.get('/ads.txt', (req, res) => {
@@ -304,6 +311,10 @@ app.get('/22-yaz-zamani-yulaf-ezmesi', (req, res) => {
 
 app.get('/23-renkli-patlican', (req, res) => {
     res.render('23-renkli-patlican')
+})
+
+app.get('/24-cilekli-dondurma', (req, res) => {
+    res.render('24-cilekli-dondurma')
 })
 
 // Page not found
