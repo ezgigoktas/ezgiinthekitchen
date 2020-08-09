@@ -45,6 +45,10 @@ app.get('/myrecipes-page3', (req, res) => {
     res.render('myrecipes-page3')
 })
 
+app.get('/myrecipes-page4', (req, res) => {
+    res.render('myrecipes-page4')
+})
+
 app.get('/about', (req, res) => {
     res.render('about')
 })
@@ -163,7 +167,9 @@ app.get('/24-strawberry-ice-cream', (req, res) => {
     res.render('24-strawberry-ice-cream')
 })
 
-
+app.get('/25-cocoa-oatmeal', (req, res) => {
+    res.render('25-cocoa-oatmeal')
+})
 
 // Addsense 
 
@@ -183,6 +189,10 @@ app.get('/tariflerim-sayfa2', (req, res) => {
 
 app.get('/tariflerim-sayfa3', (req, res) => {
     res.render('tariflerim-sayfa3')
+})
+
+app.get('/tariflerim-sayfa4', (req, res) => {
+    res.render('tariflerim-sayfa4')
 })
 
 
@@ -316,6 +326,11 @@ app.get('/23-renkli-patlican', (req, res) => {
 app.get('/24-cilekli-dondurma', (req, res) => {
     res.render('24-cilekli-dondurma')
 })
+
+app.get('/25-kakaolu-yulaf-ezmesi', (req, res) => {
+    res.render('25-kakaolu-yulaf-ezmesi')
+})
+
 
 // Page not found
 
