@@ -171,6 +171,7 @@ app.get('/25-cocoa-oatmeal', (req, res) => {
     res.render('25-cocoa-oatmeal')
 })
 
+
 // Addsense 
 
 app.get('/ads.txt', (req, res) => {
@@ -329,6 +330,10 @@ app.get('/24-cilekli-dondurma', (req, res) => {
 
 app.get('/25-kakaolu-yulaf-ezmesi', (req, res) => {
     res.render('25-kakaolu-yulaf-ezmesi')
+})
+
+app.get('/26-limonlu-bademli-kek', (req, res) => {
+    res.render('26-limonlu-bademli-kek')
 })
 
 
