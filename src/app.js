@@ -171,6 +171,14 @@ app.get('/25-cocoa-oatmeal', (req, res) => {
     res.render('25-cocoa-oatmeal')
 })
 
+app.get('/25-cocoa-oatmeal', (req, res) => {
+    res.render('25-cocoa-oatmeal')
+})
+
+app.get('/26-lemon-almond-cake', (req, res) => {
+    res.render('26-lemon-almond-cake')
+})
+
 
 // Addsense 
 
